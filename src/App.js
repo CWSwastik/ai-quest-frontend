@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Questions from "./pages/Questions";
 import QuestionDetailPage from "./pages/QuestionsDetailPage";
 import AskQuestionPage from "./pages/AskQuestionPage";
+import AppDashboard from "./pages/AppDashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/app-dashboard" element={<AppDashboard />} />
           <Route path="/questions" element={<Questions />} />
           <Route path="/questions/new" element={<AskQuestionPage />} />
           <Route path="/questions/:id" element={<QuestionDetailPage />} />
